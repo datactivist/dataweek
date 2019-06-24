@@ -137,7 +137,7 @@ Selon l'Organisation internationale des migrations, 3108 migrant·e·s ont trouv
 --
 <Br>
 <div style="text-align: center">
- <img src="img/intention.png" width="600"/>
+ <img src="img/Intention.PNG" width="600"/>
 </div>
 
 ---
@@ -175,7 +175,7 @@ https://datavizproject.com/
 https://www.data-to-viz.com
 
 
-.center[.reduite[![](./img/FromDatatoViz.PNG)]]
+.center[.reduite2[![](./img/FromDatatoViz.PNG)]]
 
 ---
 
