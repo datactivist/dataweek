@@ -12,7 +12,7 @@ output:
       countIncrementalSlides: false
 params:
   event: SGAR PACA / Dataviz
-  slug: Dataviz
+  slug: dataweek/dataviz
 ---
 
 layout: true
@@ -28,6 +28,8 @@ class: center, middle
 [![](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)
 
 <BR>
+
+Cette présentation en ligne : `r paste0("https://datactivist.coop/", params$slug)`
 
 Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
