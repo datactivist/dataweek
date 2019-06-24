@@ -60,6 +60,8 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 - **Tester quelques outils**
 
 
+Quelques liens utiles : https://annuel.framapad.org/p/dataviz
+
 ---
 class: inverse, left, middle
 
