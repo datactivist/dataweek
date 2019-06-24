@@ -1,0 +1,411 @@
+---
+title: "Panorama des formats et des outils de data visualisation"
+author: "Magalie Dartus, Datactivist"
+date: "Dataweek, `r Sys.Date()`"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: SGAR PACA / Dataviz
+  slug: Dataviz
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+
+---
+
+class: center, middle
+
+[![](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)
+
+<BR>
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+<BR>
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+
+---
+## .red[Objectifs de l'atelier]
+
+<BR>
+<BR>
+
+- Présenter les différentes **fonctions** de la data visualisation
+
+
+- Apprendre à **choisir un format** de data visualisation selon la situation
+
+
+- **Connaître les principaux outils** de visualisation
+
+
+- **Tester quelques outils**
+
+
+---
+class: inverse, left, middle
+
+# Les essentiels de la data visualisation
+
+
+---
+## .red[La data visualisation : pour quoi faire?]
+
+<BR>
+
+> "La visualisation des données est un ensemble de méthodes de représentation graphique, en deux ou trois dimensions.
+>
+> *https://fr.wikipedia.org/wiki/Visualisation_de_donn%C3%A9es*
+
+<BR>
+
+> "C'est une pratique consistant à mettre en image des données brutes, les rendant ainsi plus accessibles et compréhensibles. Elle donne du sens à ces données."
+>
+> .red[*Toucan Toco*]
+
+---
+## .red[Un exemple de dataviz]
+
+
+#### Voici les données
+Selon l'Organisation internationale des migrations, 3108 migrant·e·s ont trouvé la mort ou disparu durant le premier semestre 2017.
+
+.pull-left[
+- 2259 en Méditerranée
+- 225 en Afrique du Nord ;
+- 148 à la frontière américano-mexicaine ;
+- 136 en Afrique subsaharienne ;
+- 103 dans la Corne de l'Afrique ;
+- 91 dans les Caraïbes ;
+]
+
+.pull-right[
+
+- 45 en Asie du Sud-Est ;
+- 34 en Amérique centrale ;
+- 33 en Europe ;
+- 31 au Moyen-Orient ;
+- un·e en Amérique du Nord ;
+- un·e en Asie du Sud ;
+- un·e en Asie de l'Est.
+]
+
+
+---
+## .red[Un exemple de dataviz]
+
+
+#### Voici une dataviz réalisée à partir des données précédentes
+
+
+
+<div style="text-align: center">
+ <img src="img/Migrants_Guardian1.png" width="500"/>
+</div>
+
+
+.footnote[*Source* : [The Guardian, 11/09/2017](https://www.theguardian.com/world/2017/sep/11/migrant-death-toll-rises-after-clampdown-on-east-european-borders)]
+
+
+
+---
+## .red[Quel message veut-on faire passer?]
+
+
+- Une dataviz porte avant tout une **intention**, la volonté de transmettre une information.
+
+--
+
+- De cette intention découlera le **type de dataviz** à utiliser.
+
+--
+<Br>
+<div style="text-align: center">
+ <img src="img/intention.png" width="600"/>
+</div>
+
+---
+
+class: inverse, left, middle
+
+# Panorama des fonctions et des formats de data visualisation
+
+---
+
+## .red[Panorama de fonctions de visualisation]
+
+**Connaissez-vous le "Data Viz Project" ?**
+https://datavizproject.com/
+
+.pull-left[
+- Comparaison
+- Visualisation de concept
+- Corrélation
+- Distribution
+- Données géographiques
+- Une partie d'un ensemble
+- Changement de valeur dans le temps
+]
+
+
+.pull-right[
+.center[.reduite[![](./img/DataVizProject_p1.png)]]
+]
+
+---
+## .red[Panorama de fonctions de visualisation]
+
+**Connaissez-vous le projet "From Data to Viz" ?** 
+https://www.data-to-viz.com
+
+
+.center[.reduite[![](./img/FromDatatoViz.PNG)]]
+
+---
+
+class: inverse, left, middle
+
+# Panorama des outils de data visualisation
+
+
+---
+##.red[Des outils en fonction des usages]
+.center[.reduite[![](./img/Tous_les_outils.PNG)]]
+
+---
+## .red[RAWGraphs]
+.center[.reduite[![](./img/RAWGraphs.PNG)]]
+#### .center[https://rawgraphs.io/]
+
+---
+## .red[Flourish]
+.center[.reduite[![](./img/Flourish.PNG)]]
+#### .center[https://app.flourish.studio/templates]
+
+---
+## .red[Datawrapper]
+.center[.reduite[![](./img/Datawrapper.PNG)]]
+#### .center[https://www.datawrapper.de/]
+
+---
+## .red[HighCharts]
+.center[.reduite[![](./img/HighCharts.PNG)]]
+#### .center[https://www.highcharts.com/demo]
+
+---
+## .red[Tableau public]
+.center[.reduite[![](./img/Tableau.PNG)]]
+#### .center[https://public.tableau.com/fr-fr/s/]
+
+---
+## .red[Khartis]
+.center[.reduite[![](./img/Khartis.PNG)]]
+#### .center[http://www.sciencespo.fr/cartographie/khartis/]
+
+
+---
+## .red[macarte.ign]
+.center[.reduite[![](./img/IGN.PNG)]]
+#### .center[https://macarte.ign.fr]
+
+---
+class: inverse, left, middle
+
+# Ateliers pour réaliser facilement des data visualisation
+
+
+---
+## .red[Le diagramme à barre]
+
+.pull-left[
+- **Pour** :  des données avec différentes catégories ou dénominations
+
+
+
+- **Avantages** : simple à créer et à comprendre
+
+
+
+- **Règles** :
+  1. Ne pas surcharger
+  2. Nommer systématiquement les axes
+  3. Commencer vos axes à 0 (quand il s'agit de données quantifiables)
+]
+<Br>
+<Br>
+.pull-right[.reduite[![](./img/diagramme_barre.png)]]
+
+
+
+---
+
+### Atelier sur les résultats des élections présidentielles de 2017
+
+.pull-left[
+- Allez sur http://www.interieur.gouv.fr/Elections/Les-resultats/Presidentielles
+
+- Choisissez votre département sur la carte
+
+- Sélectionner et copiez le tableau avec l'ensemble des candidats du 1er tour.
+]
+
+
+.pull-right[
+.reduite[![](./img/choix_dep.PNG)]
+.reduite[![](./img/1er_tour.PNG)]
+]
+
+
+---
+### Atelier sur les résultats des élections présidentielles de 2017
+
+.pull-left[
+- Allez sur www.datawrapper.de et cliquez sur "**create a chart**"
+
+- Coller les données copiez précédemment (tableau des résultats du 1er tour des élections)
+
+- Cliquez sur "**Proceed**"
+
+- Cliquez sur "**add a column**"
+
+- Nommer la nouvelle colonne et remplissez les cellules de la nouvelle colonne
+
+- Cliquez sur "**Proceed**"
+
+]
+.pull-right[
+.reduite[![](./img/create-chart.PNG)]
+.reduite[![](./img/coller_resultats.PNG)]
+.reduite[![](./img/modif_resultats.PNG)]
+]
+
+---
+### Atelier sur les résultats des élections présidentielles de 2017
+
+.pull-left[
+- Choisissez le type de visualisation "**Bar Chart**". Vous pouvez tester d'autres visualisation si vous voulez.
+
+- Cliquez sur "**Proceed**"
+
+<Br>
+<Br>
+
+- **Bravo! Vous avez réalisé votre première data visualisation!à**
+
+]
+.pull-right[
+.reduite[![](./img/Chart_type.PNG)]
+<Br>
+.reduite[![](./img/Resultats_1er.PNG)]
+]
+
+---
+## .red[Les cartes]
+
+.pull-left[
+- **Pour** :  des données assignées à des aires géographiques
+
+
+
+- **Avantages** : simple à comprendre, joli.
+
+
+
+- **Règles** :
+  1. Simple à réaliser avec des données par pays
+  2. Ne visualiser qu’un indicateur par carte. Sinon utiliser des types de représentation différents
+]
+<Br>
+.pull-right[.reduite[![](./img/IGN_carte1.PNG)]]
+
+
+---
+### Atelier sur les mesures annuelles des polluants principaux en région Sud
+
+.pull-left[
+- Allez sur https://datasud.fr
+
+- Rechercher le jeu de données "Mesures annuelles des polluants principaux en région Sud"
+
+- Cliquer sur "télécharger" pour le fichier **geojson** "mesures annuelles de monoxyde de carbone (CO)"
+
+- Cliquez sur "Enregistrer" (en haut à guche de la fenêtre)
+
+- Modifier l'entension de fichier ".application" en ".geojson"
+]
+
+.pull-right[
+.reduite[![](./img/Datasud.PNG)]
+.reduite[![](./img/Datasud_CO.PNG)]
+.reduite[![](./img/Datasud_geojson.PNG)]
+]
+
+
+
+---
+
+### Atelier sur les mesures annuelles des polluants principaux en région Sud
+
+.pull-left[
+- Allez sur https://macarte.ign.fr
+
+- Cliquez sur "**Créer ma carte**"
+
+- Sur la barrre de droite cliquez sur "**accéder à l'outil statistique**" (icône diagramme à barre)
+
+- Cliquez sur "**Charger un fichier**" et aller chercher le fichier .geojson enregistré depuis la plateforme Datasud.
+]
+
+
+.pull-right[
+.reduite[![](./img/IGN.PNG)]
+.reduite[![](./img/IGN_acces_stat.PNG)]
+.reduite[![](./img/IGN_charger_fichier.PNG)]
+]
+
+---
+
+### Atelier sur les mesures annuelles des polluants principaux en région Sud
+
+.pull-left[
+- Choisissez le type de carte "**symbole**"
+
+- Choisissez l'attribut "**10-valeur**"
+
+- Vous pouvez modifier les "**paramètres**"
+
+- Cliquez sur l'icône "**enregistrer**" pour exporter la carte au format .png ou .jpg
+<Br>
+- **Bravo! Vous venez de réaliser votre première carte!**
+]
+
+.pull-right[
+.reduite[![](./img/IGN_carte_couleur.PNG)]
+.reduite[![](./img/IGN_carte1.PNG)]
+]
+
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [magalie@datactivist.coop](mailto:magalie@datactivist.coop)
+
+
