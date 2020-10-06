@@ -43,27 +43,7 @@ class: inverse, center, middle
 
 # 0. La Data week
 
-.center[![logo](https://www.dataweek.fr/wp-content/uploads/2019/04/logo_dataweek-web-e1554216293817.png)]
----
-
-
-
-
-
-.center[
-
-![préfecture](https://www.dataweek.fr/wp-content/uploads/2019/04/logo_sgar-e1554133528251.jpg) ![crige](https://www.dataweek.fr/wp-content/uploads/2019/04/logo_crige-e1554133151306.png)
-
-.mini[![code4Marseille](https://www.dataweek.fr/wp-content/uploads/2019/05/CODE4MARSEILLE.003-1-768x248.png)]
-.mini[![AMFT](https://www.dataweek.fr/wp-content/uploads/elementor/thumbs/Aix-Marseille-Re%CC%81gion-Sud-e1559918528824-o8z3t0ku0wyc7aah2tux48xnspl45bn3ffr57xhyig.png)]
-.mini[![Marseille innovation](https://www.dataweek.fr/wp-content/uploads/2019/05/logo_marseille-innov.png)]
-.mini[![Le wagon](https://www.dataweek.fr/wp-content/uploads/2019/05/logo_lewagon-768x241.png)
-![webforce](https://www.dataweek.fr/wp-content/uploads/2019/05/logo-bleu.png)]
-.mini[![enedis](https://www.dataweek.fr/wp-content/uploads/2019/06/Enedis-signature_couleur_RVB_300-dpi-300x95.png)]
-.mini[![AMP](https://www.dataweek.fr/wp-content/uploads/2019/06/logo-aix-marseille-provence-metropole-e1559735512648-300x169.jpg)]
-
-![datactivist](https://www.dataweek.fr/wp-content/uploads/2019/04/datactivist_logo2-e1554218151922.png)]
-]
+.center[![logo](./img/logo_dataweek.jpg)]
 
 ---
 class: inverse, center, middle
